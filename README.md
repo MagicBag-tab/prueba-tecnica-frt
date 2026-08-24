@@ -40,7 +40,7 @@ La data incluye 6 meses (de julio a diciembre). El gráfico de leads muestra los
 
 ## Qué recibes
 
-1. **Repositorio starter** ya configurado (Vite + React + TypeScript + SCSS). Instálalo y corre; no pierdas tiempo en setup. Para trabajar debes crear una nueva rama partiendo de `main`, nombrandola con tu nombre y apellido en came case. (Ej: `JohnDoe`).
+1. **Repositorio starter** ya configurado (Vite + React + TypeScript + SCSS). Instálalo y corre; no pierdas tiempo en setup. Para trabajar debes crear una nueva rama partiendo de `main`, nombrandola con tu nombre y apellido en came casel. (Ej: `JohnDoe`).
 2. **Data dummy** en formato JSON dentro del repo (`quantum-reach-data.json`). Es la única fuente de datos; no hay backend.
 3. **Diseño de referencia** con sus tokens (colores, tipografía, espaciados, radios, sombras) y medidas.
 
@@ -49,7 +49,7 @@ La data incluye 6 meses (de julio a diciembre). El gráfico de leads muestra los
 ## Requisitos técnicos
 
 - **React + TypeScript.** La data debe estar tipada; evita `any` sin razón.
-- **SCSS en todo el proyecto.** Todos los estilos van en SCSS y deben apoyarse en los **tokens y variables** que te damos. No uses valores mágicos ni estilos inline que dupliquen lo que ya existe en el sistema de diseño.
+- **SCSS en todo el proyecto.** Todos los estilos van en SCSS y deben apoyarse en los **tokens y variables** que te damos. No uses valores mágicos ni estilos inline que dupliquen lo que ya existe en el sistema de diseño. En el archivo de tokens se incluyen todos los colores de la marca, revisa bien cuales si son utilizados en el diseño.
 - **Hooks para simular la conexión al backend.** La data no debe consumirse de forma directa dentro de los componentes. Crea uno o varios hooks propios que simulen una petición a un backend (carga asíncrona con su estado de carga) y que entreguen la data ya filtrada según los filtros activos. Los componentes solo consumen el resultado del hook.
 - **Gráficos con recharts o apexcharts.** Puedes elegir cualquiera de las dos librerías para el gráfico de barras y el de dona.
 - **Componentes de interfaz propios.** Las tarjetas, las barras de progreso y los filtros constrúyelos tú para que reflejen el diseño. No traigas una librería de componentes de UI que los resuelva por ti.
@@ -68,7 +68,7 @@ La data incluye 6 meses (de julio a diciembre). El gráfico de leads muestra los
 
 - El dashboard se parece al diseño en espaciado, tipografía, color, radios y sombras.
 - Los filtros de Marca y Mes recalculan los KPIs, sus badges de variación y el mix de inversión.
-- La data se consume a través de un hook que simula la conexión al backend, con su estado de carga.
+- La data se consume a través de uno o más hooks que simula la conexión al backend, con su estado de carga.
 - Los estilos están en SCSS usando los tokens y variables provistos.
 - El código está organizado en componentes con nombres claros.
 - La data está tipada.
