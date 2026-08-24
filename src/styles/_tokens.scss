@@ -1,0 +1,171 @@
+// ============================================================
+//  Design tokens - Improgress UI Kit
+//  Generado desde el export de variables de Figma (IMP - UI KIT).
+//  Contiene TODA la paleta de marca. El dashboard no usa todos;
+//  recorta lo que no necesites. Las variables $ conservan los
+//  nombres de tus tokens de Figma.
+// ============================================================
+
+// ------------------------------------------------------------
+//  COLORES
+// ------------------------------------------------------------
+
+// -- Primary (marca) --
+$color-primary-verne:                     #122c4c;
+$color-primary-simbiotika:                #003886;
+$color-primary-da-vinci:                  #e8812f;
+$color-primary-white:                     #ffffff;
+$color-primary-amplify:                   #f57620;
+
+// -- Secondary --
+$color-secondary-jarvis:                  #305077;
+$color-secondary-off-black:               #051b38;
+
+// -- Text --
+$color-text-primary:                      #0d0d35;
+$color-text-secondary:                    #737373;
+$color-text-tertiary:                     #a6a6a6;
+
+// -- Background --
+$color-background-sidebar:                #fcfcfc;
+$color-background-content:                #f8f8f8;
+$color-background-sidebar-active:         #ededed;
+$color-background-navbar:                 #fcfcfc;
+$color-background-card:                   #fcfcfc;
+
+// -- Gray --
+$color-gray-dark-gray:                    #737373;
+$color-gray-silver:                       #a6a6a6;
+$color-gray-timberwolf:                   #d2d2d2;
+$color-gray-alabaster:                    #eaeaea;
+$color-gray-white-smoke:                  #f5f5f5;
+
+// -- Semantic --
+$color-semantic-success:                  #2e9e6b;
+$color-semantic-warning:                  #e8812f;
+$color-semantic-error:                    #d93a3a;
+$color-semantic-info:                     #5fa2cc;
+
+// -- Semantic / subtle --
+$color-semantic-subtle-success:           #cde4d9;
+$color-semantic-subtle-warning:           #f1d2b9;
+$color-semantic-subtle-error:             #ecbcbc;
+$color-semantic-subtle-info:              #d1e0ef;
+$color-semantic-subtle-verne:             #b8c0c9;
+$color-semantic-subtle-amplify:           #fad4ba;
+
+// -- Charts / blue (degradado del grafico de leads) --
+$color-charts-blue-imperial-blue:         #1b2c72;
+$color-charts-blue-ocean-twilight:        #2a43a8;
+$color-charts-blue-royal-azure:           #3a5ad7;
+$color-charts-blue-glaucous:              #6e82e1;
+$color-charts-blue-wisteria-blue:         #9daceb;
+$color-charts-blue-periwinkle:            #c9d2f4;
+
+// -- Charts / red --
+$color-charts-red-spicy-orange:           #d94a00;
+$color-charts-red-cayenne-red:            #ea5e0f;
+$color-charts-red-pumpking-spice:         #f57620;
+$color-charts-red-princeton:              #fb8f3f;
+$color-charts-red-sandy-brown:            #ffb27e;
+$color-charts-red-peach:                  #ffd3b4;
+
+// -- Charts / comparative --
+$color-charts-comparative-pumpkin-spice:  #f57620;
+$color-charts-comparative-peach-glow:     #fcc198;
+$color-charts-comparative-majorelle:      #7c4dff;
+$color-charts-comparative-mauve:          #c4b0ff;
+$color-charts-comparative-fresh-sky:      #1fa5eb;
+$color-charts-comparative-icy-blue:       #a0d6f5;
+$color-charts-comparative-royal-azure:    #3a5ad7;
+$color-charts-comparative-periwinkle:     #aab6ef;
+$color-charts-comparative-ocean-mist:     #0db6a4;
+$color-charts-comparative-aqua:           #86ddd0;
+$color-charts-comparative-blush-rose:     #ea4c74;
+$color-charts-comparative-cherry-blossom: #f6a9be;
+
+// ------------------------------------------------------------
+//  TIPOGRAFIA
+// ------------------------------------------------------------
+
+// -- Familias (fuentes custom: cargar via @font-face o CDN) --
+$font-display:    'Glacial Indifference', system-ui, sans-serif;
+$font-functional: 'Poppins', system-ui, -apple-system, sans-serif;
+
+// -- Tamanos (px) --
+$size-display-1: 42px;
+$size-display-2: 36px;
+$size-display-3: 28px;
+$size-heading-1: 30px;
+$size-heading-2: 28px;
+$size-heading-3: 20px;
+$size-heading-4: 20px;
+$size-body-1:    18px;
+$size-body-2:    16px;
+$size-body-3:    14px;
+$size-body-4:    14px;
+
+// -- Pesos (mapeados a numeros CSS) --
+$weight-display-1: 700;  // Bold
+$weight-display-2: 600;  // Semi Bold
+$weight-display-3: 400;  // Regular
+$weight-heading-1: 700;  // Bold
+$weight-heading-2: 700;  // Bold
+$weight-heading-3: 600;  // Semi Bold
+$weight-heading-4: 400;  // Regular
+$weight-body-1:    500;  // Medium
+$weight-body-2:    400;  // Regular
+$weight-body-3:    400;  // Regular
+$weight-body-4:    600;  // Semi Bold
+
+// ------------------------------------------------------------
+//  SPACING (px)
+// ------------------------------------------------------------
+
+$spacing-4:  4px;
+$spacing-8:  8px;
+$spacing-12: 12px;
+$spacing-14: 14px;
+$spacing-16: 16px;
+$spacing-18: 18px;
+$spacing-20: 20px;
+$spacing-24: 24px;
+$spacing-28: 28px;
+$spacing-32: 32px;
+$spacing-34: 34px;
+$spacing-36: 36px;
+$spacing-38: 38px;
+$spacing-40: 40px;
+$spacing-42: 42px;
+
+// ------------------------------------------------------------
+//  BORDER RADIUS (px)
+// ------------------------------------------------------------
+
+$radius-icon-button: 4px;
+$radius-card:        8px;
+$radius-button:      8px;
+$radius-input:       8px;
+$radius-table:       8px;
+$radius-pill:        999px;
+$radius-badge:       999px;
+
+// ------------------------------------------------------------
+//  ALIASES usados por el starter (App.scss).
+//  Ajusta o elimina cuando armes tus componentes reales.
+//  Nota: no hay token de sombra en Figma; se define aqui.
+// ------------------------------------------------------------
+
+$color-bg:         $color-background-content;
+$color-surface:    $color-background-card;
+$color-navy:       $color-primary-verne;
+$color-blue:       $color-charts-blue-royal-azure;
+$color-text:       $color-text-primary;
+$color-text-muted: $color-text-secondary;
+$color-border:     $color-gray-alabaster;
+$font-sans:        $font-functional;
+$space-3:          $spacing-12;
+$space-6:          $spacing-24;
+$radius-sm:        $radius-icon-button;
+$radius-lg:        $radius-card;
+$shadow-card:      0 1px 2px rgba(13, 13, 53, 0.04), 0 1px 3px rgba(13, 13, 53, 0.06);

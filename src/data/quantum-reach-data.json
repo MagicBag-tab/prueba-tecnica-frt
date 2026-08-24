@@ -1,0 +1,1468 @@
+{
+  "meta": {
+    "cliente": "Quantum Reach",
+    "moneda": "USD",
+    "presupuestoTotal": 270000,
+    "mesDefault": "2025-12",
+    "actualizado": "2025-12-31",
+    "_notaFiltros": "KPIs (con su badge de variacion vs mes anterior) y mix de inversion responden a Marca + Mes + Plataforma. El grafico de leads muestra los 6 meses. Los paneles de panelesGlobales responden solo a Marca."
+  },
+  "filtros": {
+    "marcas": [
+      {
+        "id": "todas",
+        "nombre": "Todas las marcas"
+      },
+      {
+        "id": "nova-motors",
+        "nombre": "Nova Motors"
+      },
+      {
+        "id": "aurora-retail",
+        "nombre": "Aurora Retail"
+      },
+      {
+        "id": "vitalis",
+        "nombre": "Vitalis"
+      },
+      {
+        "id": "zenith-foods",
+        "nombre": "Zenith Foods"
+      }
+    ],
+    "plataformas": [
+      {
+        "id": "todas",
+        "nombre": "Todos"
+      },
+      {
+        "id": "meta-ads",
+        "nombre": "Meta Ads"
+      },
+      {
+        "id": "delivery-platforms",
+        "nombre": "Delivery Platforms"
+      },
+      {
+        "id": "google-ads",
+        "nombre": "Google Ads"
+      },
+      {
+        "id": "tiktok-ads",
+        "nombre": "Tiktok Ads"
+      }
+    ],
+    "meses": [
+      {
+        "id": "2025-07",
+        "nombre": "Julio 2025",
+        "corto": "Jul"
+      },
+      {
+        "id": "2025-08",
+        "nombre": "Agosto 2025",
+        "corto": "Ago"
+      },
+      {
+        "id": "2025-09",
+        "nombre": "Septiembre 2025",
+        "corto": "Sep"
+      },
+      {
+        "id": "2025-10",
+        "nombre": "Octubre 2025",
+        "corto": "Oct"
+      },
+      {
+        "id": "2025-11",
+        "nombre": "Noviembre 2025",
+        "corto": "Nov"
+      },
+      {
+        "id": "2025-12",
+        "nombre": "Diciembre 2025",
+        "corto": "Dic"
+      }
+    ]
+  },
+  "registros": [
+    {
+      "marca": "nova-motors",
+      "plataforma": "meta-ads",
+      "mes": "2025-07",
+      "inversion": 2498.43,
+      "inversionPlan": 2521.12,
+      "leads": 9248,
+      "mensajes": 46,
+      "conversaciones": 50,
+      "conversiones": 37,
+      "impresiones": 302339,
+      "clics": 4172
+    },
+    {
+      "marca": "nova-motors",
+      "plataforma": "meta-ads",
+      "mes": "2025-08",
+      "inversion": 2611.2,
+      "inversionPlan": 2634.92,
+      "leads": 9520,
+      "mensajes": 47,
+      "conversaciones": 52,
+      "conversiones": 38,
+      "impresiones": 311231,
+      "clics": 4419
+    },
+    {
+      "marca": "nova-motors",
+      "plataforma": "meta-ads",
+      "mes": "2025-09",
+      "inversion": 2611.2,
+      "inversionPlan": 2634.92,
+      "leads": 9792,
+      "mensajes": 48,
+      "conversaciones": 53,
+      "conversiones": 39,
+      "impresiones": 320123,
+      "clics": 4642
+    },
+    {
+      "marca": "nova-motors",
+      "plataforma": "meta-ads",
+      "mes": "2025-10",
+      "inversion": 2611.2,
+      "inversionPlan": 2634.92,
+      "leads": 10200,
+      "mensajes": 50,
+      "conversaciones": 56,
+      "conversiones": 41,
+      "impresiones": 333461,
+      "clics": 4969
+    },
+    {
+      "marca": "nova-motors",
+      "plataforma": "meta-ads",
+      "mes": "2025-11",
+      "inversion": 2519.97,
+      "inversionPlan": 2542.85,
+      "leads": 10336,
+      "mensajes": 51,
+      "conversaciones": 56,
+      "conversiones": 41,
+      "impresiones": 337908,
+      "clics": 5170
+    },
+    {
+      "marca": "nova-motors",
+      "plataforma": "meta-ads",
+      "mes": "2025-12",
+      "inversion": 2570.4,
+      "inversionPlan": 2593.74,
+      "leads": 10608,
+      "mensajes": 52,
+      "conversaciones": 58,
+      "conversiones": 42,
+      "impresiones": 346800,
+      "clics": 5202
+    },
+    {
+      "marca": "nova-motors",
+      "plataforma": "delivery-platforms",
+      "mes": "2025-07",
+      "inversion": 1145.11,
+      "inversionPlan": 1155.51,
+      "leads": 2312,
+      "mensajes": 11,
+      "conversaciones": 13,
+      "conversiones": 9,
+      "impresiones": 75585,
+      "clics": 1043
+    },
+    {
+      "marca": "nova-motors",
+      "plataforma": "delivery-platforms",
+      "mes": "2025-08",
+      "inversion": 1196.8,
+      "inversionPlan": 1207.67,
+      "leads": 2380,
+      "mensajes": 12,
+      "conversaciones": 13,
+      "conversiones": 10,
+      "impresiones": 77808,
+      "clics": 1105
+    },
+    {
+      "marca": "nova-motors",
+      "plataforma": "delivery-platforms",
+      "mes": "2025-09",
+      "inversion": 1196.8,
+      "inversionPlan": 1207.67,
+      "leads": 2448,
+      "mensajes": 12,
+      "conversaciones": 13,
+      "conversiones": 10,
+      "impresiones": 80031,
+      "clics": 1160
+    },
+    {
+      "marca": "nova-motors",
+      "plataforma": "delivery-platforms",
+      "mes": "2025-10",
+      "inversion": 1196.8,
+      "inversionPlan": 1207.67,
+      "leads": 2550,
+      "mensajes": 12,
+      "conversaciones": 14,
+      "conversiones": 10,
+      "impresiones": 83365,
+      "clics": 1242
+    },
+    {
+      "marca": "nova-motors",
+      "plataforma": "delivery-platforms",
+      "mes": "2025-11",
+      "inversion": 1154.99,
+      "inversionPlan": 1165.48,
+      "leads": 2584,
+      "mensajes": 13,
+      "conversaciones": 14,
+      "conversiones": 10,
+      "impresiones": 84477,
+      "clics": 1293
+    },
+    {
+      "marca": "nova-motors",
+      "plataforma": "delivery-platforms",
+      "mes": "2025-12",
+      "inversion": 1178.1,
+      "inversionPlan": 1188.8,
+      "leads": 2652,
+      "mensajes": 13,
+      "conversaciones": 14,
+      "conversiones": 11,
+      "impresiones": 86700,
+      "clics": 1300
+    },
+    {
+      "marca": "nova-motors",
+      "plataforma": "google-ads",
+      "mes": "2025-07",
+      "inversion": 936.91,
+      "inversionPlan": 945.42,
+      "leads": 6936,
+      "mensajes": 34,
+      "conversaciones": 38,
+      "conversiones": 28,
+      "impresiones": 226754,
+      "clics": 3129
+    },
+    {
+      "marca": "nova-motors",
+      "plataforma": "google-ads",
+      "mes": "2025-08",
+      "inversion": 979.2,
+      "inversionPlan": 988.09,
+      "leads": 7140,
+      "mensajes": 35,
+      "conversaciones": 39,
+      "conversiones": 28,
+      "impresiones": 233423,
+      "clics": 3314
+    },
+    {
+      "marca": "nova-motors",
+      "plataforma": "google-ads",
+      "mes": "2025-09",
+      "inversion": 979.2,
+      "inversionPlan": 988.09,
+      "leads": 7344,
+      "mensajes": 36,
+      "conversaciones": 40,
+      "conversiones": 29,
+      "impresiones": 240092,
+      "clics": 3481
+    },
+    {
+      "marca": "nova-motors",
+      "plataforma": "google-ads",
+      "mes": "2025-10",
+      "inversion": 979.2,
+      "inversionPlan": 988.09,
+      "leads": 7650,
+      "mensajes": 38,
+      "conversaciones": 42,
+      "conversiones": 31,
+      "impresiones": 250096,
+      "clics": 3726
+    },
+    {
+      "marca": "nova-motors",
+      "plataforma": "google-ads",
+      "mes": "2025-11",
+      "inversion": 944.99,
+      "inversionPlan": 953.57,
+      "leads": 7752,
+      "mensajes": 38,
+      "conversaciones": 42,
+      "conversiones": 31,
+      "impresiones": 253431,
+      "clics": 3878
+    },
+    {
+      "marca": "nova-motors",
+      "plataforma": "google-ads",
+      "mes": "2025-12",
+      "inversion": 963.9,
+      "inversionPlan": 972.66,
+      "leads": 7956,
+      "mensajes": 39,
+      "conversaciones": 43,
+      "conversiones": 32,
+      "impresiones": 260100,
+      "clics": 3902
+    },
+    {
+      "marca": "nova-motors",
+      "plataforma": "tiktok-ads",
+      "mes": "2025-07",
+      "inversion": 624.61,
+      "inversionPlan": 630.28,
+      "leads": 4624,
+      "mensajes": 23,
+      "conversaciones": 25,
+      "conversiones": 18,
+      "impresiones": 151169,
+      "clics": 2086
+    },
+    {
+      "marca": "nova-motors",
+      "plataforma": "tiktok-ads",
+      "mes": "2025-08",
+      "inversion": 652.8,
+      "inversionPlan": 658.73,
+      "leads": 4760,
+      "mensajes": 23,
+      "conversaciones": 26,
+      "conversiones": 19,
+      "impresiones": 155615,
+      "clics": 2210
+    },
+    {
+      "marca": "nova-motors",
+      "plataforma": "tiktok-ads",
+      "mes": "2025-09",
+      "inversion": 652.8,
+      "inversionPlan": 658.73,
+      "leads": 4896,
+      "mensajes": 24,
+      "conversaciones": 27,
+      "conversiones": 20,
+      "impresiones": 160061,
+      "clics": 2321
+    },
+    {
+      "marca": "nova-motors",
+      "plataforma": "tiktok-ads",
+      "mes": "2025-10",
+      "inversion": 652.8,
+      "inversionPlan": 658.73,
+      "leads": 5100,
+      "mensajes": 25,
+      "conversaciones": 28,
+      "conversiones": 20,
+      "impresiones": 166731,
+      "clics": 2484
+    },
+    {
+      "marca": "nova-motors",
+      "plataforma": "tiktok-ads",
+      "mes": "2025-11",
+      "inversion": 629.99,
+      "inversionPlan": 635.72,
+      "leads": 5168,
+      "mensajes": 25,
+      "conversaciones": 28,
+      "conversiones": 21,
+      "impresiones": 168954,
+      "clics": 2585
+    },
+    {
+      "marca": "nova-motors",
+      "plataforma": "tiktok-ads",
+      "mes": "2025-12",
+      "inversion": 642.6,
+      "inversionPlan": 648.43,
+      "leads": 5304,
+      "mensajes": 26,
+      "conversaciones": 29,
+      "conversiones": 21,
+      "impresiones": 173400,
+      "clics": 2601
+    },
+    {
+      "marca": "aurora-retail",
+      "plataforma": "meta-ads",
+      "mes": "2025-07",
+      "inversion": 2057.53,
+      "inversionPlan": 2076.21,
+      "leads": 7616,
+      "mensajes": 38,
+      "conversaciones": 42,
+      "conversiones": 30,
+      "impresiones": 248985,
+      "clics": 3436
+    },
+    {
+      "marca": "aurora-retail",
+      "plataforma": "meta-ads",
+      "mes": "2025-08",
+      "inversion": 2150.4,
+      "inversionPlan": 2169.93,
+      "leads": 7840,
+      "mensajes": 39,
+      "conversaciones": 43,
+      "conversiones": 31,
+      "impresiones": 256308,
+      "clics": 3639
+    },
+    {
+      "marca": "aurora-retail",
+      "plataforma": "meta-ads",
+      "mes": "2025-09",
+      "inversion": 2150.4,
+      "inversionPlan": 2169.93,
+      "leads": 8064,
+      "mensajes": 40,
+      "conversaciones": 44,
+      "conversiones": 32,
+      "impresiones": 263631,
+      "clics": 3823
+    },
+    {
+      "marca": "aurora-retail",
+      "plataforma": "meta-ads",
+      "mes": "2025-10",
+      "inversion": 2150.4,
+      "inversionPlan": 2169.93,
+      "leads": 8400,
+      "mensajes": 41,
+      "conversaciones": 46,
+      "conversiones": 33,
+      "impresiones": 274615,
+      "clics": 4092
+    },
+    {
+      "marca": "aurora-retail",
+      "plataforma": "meta-ads",
+      "mes": "2025-11",
+      "inversion": 2075.27,
+      "inversionPlan": 2094.12,
+      "leads": 8512,
+      "mensajes": 42,
+      "conversaciones": 47,
+      "conversiones": 34,
+      "impresiones": 278277,
+      "clics": 4258
+    },
+    {
+      "marca": "aurora-retail",
+      "plataforma": "meta-ads",
+      "mes": "2025-12",
+      "inversion": 2116.8,
+      "inversionPlan": 2136.02,
+      "leads": 8736,
+      "mensajes": 43,
+      "conversaciones": 48,
+      "conversiones": 35,
+      "impresiones": 285600,
+      "clics": 4284
+    },
+    {
+      "marca": "aurora-retail",
+      "plataforma": "delivery-platforms",
+      "mes": "2025-07",
+      "inversion": 943.03,
+      "inversionPlan": 951.6,
+      "leads": 1904,
+      "mensajes": 9,
+      "conversaciones": 10,
+      "conversiones": 8,
+      "impresiones": 62246,
+      "clics": 859
+    },
+    {
+      "marca": "aurora-retail",
+      "plataforma": "delivery-platforms",
+      "mes": "2025-08",
+      "inversion": 985.6,
+      "inversionPlan": 994.55,
+      "leads": 1960,
+      "mensajes": 10,
+      "conversaciones": 11,
+      "conversiones": 8,
+      "impresiones": 64077,
+      "clics": 910
+    },
+    {
+      "marca": "aurora-retail",
+      "plataforma": "delivery-platforms",
+      "mes": "2025-09",
+      "inversion": 985.6,
+      "inversionPlan": 994.55,
+      "leads": 2016,
+      "mensajes": 10,
+      "conversaciones": 11,
+      "conversiones": 8,
+      "impresiones": 65908,
+      "clics": 956
+    },
+    {
+      "marca": "aurora-retail",
+      "plataforma": "delivery-platforms",
+      "mes": "2025-10",
+      "inversion": 985.6,
+      "inversionPlan": 994.55,
+      "leads": 2100,
+      "mensajes": 10,
+      "conversaciones": 11,
+      "conversiones": 8,
+      "impresiones": 68654,
+      "clics": 1023
+    },
+    {
+      "marca": "aurora-retail",
+      "plataforma": "delivery-platforms",
+      "mes": "2025-11",
+      "inversion": 951.17,
+      "inversionPlan": 959.8,
+      "leads": 2128,
+      "mensajes": 10,
+      "conversaciones": 12,
+      "conversiones": 8,
+      "impresiones": 69569,
+      "clics": 1064
+    },
+    {
+      "marca": "aurora-retail",
+      "plataforma": "delivery-platforms",
+      "mes": "2025-12",
+      "inversion": 970.2,
+      "inversionPlan": 979.01,
+      "leads": 2184,
+      "mensajes": 11,
+      "conversaciones": 12,
+      "conversiones": 9,
+      "impresiones": 71400,
+      "clics": 1071
+    },
+    {
+      "marca": "aurora-retail",
+      "plataforma": "google-ads",
+      "mes": "2025-07",
+      "inversion": 771.57,
+      "inversionPlan": 778.58,
+      "leads": 5712,
+      "mensajes": 28,
+      "conversaciones": 31,
+      "conversiones": 23,
+      "impresiones": 186738,
+      "clics": 2577
+    },
+    {
+      "marca": "aurora-retail",
+      "plataforma": "google-ads",
+      "mes": "2025-08",
+      "inversion": 806.4,
+      "inversionPlan": 813.72,
+      "leads": 5880,
+      "mensajes": 29,
+      "conversaciones": 32,
+      "conversiones": 23,
+      "impresiones": 192231,
+      "clics": 2730
+    },
+    {
+      "marca": "aurora-retail",
+      "plataforma": "google-ads",
+      "mes": "2025-09",
+      "inversion": 806.4,
+      "inversionPlan": 813.72,
+      "leads": 6048,
+      "mensajes": 30,
+      "conversaciones": 33,
+      "conversiones": 24,
+      "impresiones": 197723,
+      "clics": 2867
+    },
+    {
+      "marca": "aurora-retail",
+      "plataforma": "google-ads",
+      "mes": "2025-10",
+      "inversion": 806.4,
+      "inversionPlan": 813.72,
+      "leads": 6300,
+      "mensajes": 31,
+      "conversaciones": 34,
+      "conversiones": 25,
+      "impresiones": 205962,
+      "clics": 3069
+    },
+    {
+      "marca": "aurora-retail",
+      "plataforma": "google-ads",
+      "mes": "2025-11",
+      "inversion": 778.23,
+      "inversionPlan": 785.29,
+      "leads": 6384,
+      "mensajes": 31,
+      "conversaciones": 35,
+      "conversiones": 25,
+      "impresiones": 208708,
+      "clics": 3193
+    },
+    {
+      "marca": "aurora-retail",
+      "plataforma": "google-ads",
+      "mes": "2025-12",
+      "inversion": 793.8,
+      "inversionPlan": 801.01,
+      "leads": 6552,
+      "mensajes": 32,
+      "conversaciones": 36,
+      "conversiones": 26,
+      "impresiones": 214200,
+      "clics": 3213
+    },
+    {
+      "marca": "aurora-retail",
+      "plataforma": "tiktok-ads",
+      "mes": "2025-07",
+      "inversion": 514.38,
+      "inversionPlan": 519.05,
+      "leads": 3808,
+      "mensajes": 19,
+      "conversaciones": 21,
+      "conversiones": 15,
+      "impresiones": 124492,
+      "clics": 1718
+    },
+    {
+      "marca": "aurora-retail",
+      "plataforma": "tiktok-ads",
+      "mes": "2025-08",
+      "inversion": 537.6,
+      "inversionPlan": 542.48,
+      "leads": 3920,
+      "mensajes": 19,
+      "conversaciones": 21,
+      "conversiones": 16,
+      "impresiones": 128154,
+      "clics": 1820
+    },
+    {
+      "marca": "aurora-retail",
+      "plataforma": "tiktok-ads",
+      "mes": "2025-09",
+      "inversion": 537.6,
+      "inversionPlan": 542.48,
+      "leads": 4032,
+      "mensajes": 20,
+      "conversaciones": 22,
+      "conversiones": 16,
+      "impresiones": 131815,
+      "clics": 1911
+    },
+    {
+      "marca": "aurora-retail",
+      "plataforma": "tiktok-ads",
+      "mes": "2025-10",
+      "inversion": 537.6,
+      "inversionPlan": 542.48,
+      "leads": 4200,
+      "mensajes": 21,
+      "conversaciones": 23,
+      "conversiones": 17,
+      "impresiones": 137308,
+      "clics": 2046
+    },
+    {
+      "marca": "aurora-retail",
+      "plataforma": "tiktok-ads",
+      "mes": "2025-11",
+      "inversion": 518.82,
+      "inversionPlan": 523.53,
+      "leads": 4256,
+      "mensajes": 21,
+      "conversaciones": 23,
+      "conversiones": 17,
+      "impresiones": 139138,
+      "clics": 2129
+    },
+    {
+      "marca": "aurora-retail",
+      "plataforma": "tiktok-ads",
+      "mes": "2025-12",
+      "inversion": 529.2,
+      "inversionPlan": 534.0,
+      "leads": 4368,
+      "mensajes": 22,
+      "conversaciones": 24,
+      "conversiones": 17,
+      "impresiones": 142800,
+      "clics": 2142
+    },
+    {
+      "marca": "vitalis",
+      "plataforma": "meta-ads",
+      "mes": "2025-07",
+      "inversion": 1616.63,
+      "inversionPlan": 1631.31,
+      "leads": 5984,
+      "mensajes": 29,
+      "conversaciones": 33,
+      "conversiones": 24,
+      "impresiones": 195631,
+      "clics": 2700
+    },
+    {
+      "marca": "vitalis",
+      "plataforma": "meta-ads",
+      "mes": "2025-08",
+      "inversion": 1689.6,
+      "inversionPlan": 1704.94,
+      "leads": 6160,
+      "mensajes": 30,
+      "conversaciones": 34,
+      "conversiones": 25,
+      "impresiones": 201385,
+      "clics": 2859
+    },
+    {
+      "marca": "vitalis",
+      "plataforma": "meta-ads",
+      "mes": "2025-09",
+      "inversion": 1689.6,
+      "inversionPlan": 1704.94,
+      "leads": 6336,
+      "mensajes": 31,
+      "conversaciones": 35,
+      "conversiones": 25,
+      "impresiones": 207138,
+      "clics": 3004
+    },
+    {
+      "marca": "vitalis",
+      "plataforma": "meta-ads",
+      "mes": "2025-10",
+      "inversion": 1689.6,
+      "inversionPlan": 1704.94,
+      "leads": 6600,
+      "mensajes": 32,
+      "conversaciones": 36,
+      "conversiones": 26,
+      "impresiones": 215769,
+      "clics": 3215
+    },
+    {
+      "marca": "vitalis",
+      "plataforma": "meta-ads",
+      "mes": "2025-11",
+      "inversion": 1630.57,
+      "inversionPlan": 1645.38,
+      "leads": 6688,
+      "mensajes": 33,
+      "conversaciones": 37,
+      "conversiones": 27,
+      "impresiones": 218646,
+      "clics": 3345
+    },
+    {
+      "marca": "vitalis",
+      "plataforma": "meta-ads",
+      "mes": "2025-12",
+      "inversion": 1663.2,
+      "inversionPlan": 1678.31,
+      "leads": 6864,
+      "mensajes": 34,
+      "conversaciones": 38,
+      "conversiones": 27,
+      "impresiones": 224400,
+      "clics": 3366
+    },
+    {
+      "marca": "vitalis",
+      "plataforma": "delivery-platforms",
+      "mes": "2025-07",
+      "inversion": 740.96,
+      "inversionPlan": 747.69,
+      "leads": 1496,
+      "mensajes": 7,
+      "conversaciones": 8,
+      "conversiones": 6,
+      "impresiones": 48908,
+      "clics": 675
+    },
+    {
+      "marca": "vitalis",
+      "plataforma": "delivery-platforms",
+      "mes": "2025-08",
+      "inversion": 774.4,
+      "inversionPlan": 781.43,
+      "leads": 1540,
+      "mensajes": 8,
+      "conversaciones": 8,
+      "conversiones": 6,
+      "impresiones": 50346,
+      "clics": 715
+    },
+    {
+      "marca": "vitalis",
+      "plataforma": "delivery-platforms",
+      "mes": "2025-09",
+      "inversion": 774.4,
+      "inversionPlan": 781.43,
+      "leads": 1584,
+      "mensajes": 8,
+      "conversaciones": 9,
+      "conversiones": 6,
+      "impresiones": 51785,
+      "clics": 751
+    },
+    {
+      "marca": "vitalis",
+      "plataforma": "delivery-platforms",
+      "mes": "2025-10",
+      "inversion": 774.4,
+      "inversionPlan": 781.43,
+      "leads": 1650,
+      "mensajes": 8,
+      "conversaciones": 9,
+      "conversiones": 7,
+      "impresiones": 53942,
+      "clics": 804
+    },
+    {
+      "marca": "vitalis",
+      "plataforma": "delivery-platforms",
+      "mes": "2025-11",
+      "inversion": 747.34,
+      "inversionPlan": 754.13,
+      "leads": 1672,
+      "mensajes": 8,
+      "conversaciones": 9,
+      "conversiones": 7,
+      "impresiones": 54661,
+      "clics": 836
+    },
+    {
+      "marca": "vitalis",
+      "plataforma": "delivery-platforms",
+      "mes": "2025-12",
+      "inversion": 762.3,
+      "inversionPlan": 769.22,
+      "leads": 1716,
+      "mensajes": 8,
+      "conversaciones": 9,
+      "conversiones": 7,
+      "impresiones": 56100,
+      "clics": 842
+    },
+    {
+      "marca": "vitalis",
+      "plataforma": "google-ads",
+      "mes": "2025-07",
+      "inversion": 606.24,
+      "inversionPlan": 611.74,
+      "leads": 4488,
+      "mensajes": 22,
+      "conversaciones": 24,
+      "conversiones": 18,
+      "impresiones": 146723,
+      "clics": 2025
+    },
+    {
+      "marca": "vitalis",
+      "plataforma": "google-ads",
+      "mes": "2025-08",
+      "inversion": 633.6,
+      "inversionPlan": 639.35,
+      "leads": 4620,
+      "mensajes": 23,
+      "conversaciones": 25,
+      "conversiones": 18,
+      "impresiones": 151038,
+      "clics": 2145
+    },
+    {
+      "marca": "vitalis",
+      "plataforma": "google-ads",
+      "mes": "2025-09",
+      "inversion": 633.6,
+      "inversionPlan": 639.35,
+      "leads": 4752,
+      "mensajes": 23,
+      "conversaciones": 26,
+      "conversiones": 19,
+      "impresiones": 155354,
+      "clics": 2253
+    },
+    {
+      "marca": "vitalis",
+      "plataforma": "google-ads",
+      "mes": "2025-10",
+      "inversion": 633.6,
+      "inversionPlan": 639.35,
+      "leads": 4950,
+      "mensajes": 24,
+      "conversaciones": 27,
+      "conversiones": 20,
+      "impresiones": 161827,
+      "clics": 2411
+    },
+    {
+      "marca": "vitalis",
+      "plataforma": "google-ads",
+      "mes": "2025-11",
+      "inversion": 611.46,
+      "inversionPlan": 617.02,
+      "leads": 5016,
+      "mensajes": 25,
+      "conversaciones": 27,
+      "conversiones": 20,
+      "impresiones": 163985,
+      "clics": 2509
+    },
+    {
+      "marca": "vitalis",
+      "plataforma": "google-ads",
+      "mes": "2025-12",
+      "inversion": 623.7,
+      "inversionPlan": 629.36,
+      "leads": 5148,
+      "mensajes": 25,
+      "conversaciones": 28,
+      "conversiones": 20,
+      "impresiones": 168300,
+      "clics": 2524
+    },
+    {
+      "marca": "vitalis",
+      "plataforma": "tiktok-ads",
+      "mes": "2025-07",
+      "inversion": 404.16,
+      "inversionPlan": 407.83,
+      "leads": 2992,
+      "mensajes": 15,
+      "conversaciones": 16,
+      "conversiones": 12,
+      "impresiones": 97815,
+      "clics": 1350
+    },
+    {
+      "marca": "vitalis",
+      "plataforma": "tiktok-ads",
+      "mes": "2025-08",
+      "inversion": 422.4,
+      "inversionPlan": 426.24,
+      "leads": 3080,
+      "mensajes": 15,
+      "conversaciones": 17,
+      "conversiones": 12,
+      "impresiones": 100692,
+      "clics": 1430
+    },
+    {
+      "marca": "vitalis",
+      "plataforma": "tiktok-ads",
+      "mes": "2025-09",
+      "inversion": 422.4,
+      "inversionPlan": 426.24,
+      "leads": 3168,
+      "mensajes": 15,
+      "conversaciones": 17,
+      "conversiones": 13,
+      "impresiones": 103569,
+      "clics": 1502
+    },
+    {
+      "marca": "vitalis",
+      "plataforma": "tiktok-ads",
+      "mes": "2025-10",
+      "inversion": 422.4,
+      "inversionPlan": 426.24,
+      "leads": 3300,
+      "mensajes": 16,
+      "conversaciones": 18,
+      "conversiones": 13,
+      "impresiones": 107885,
+      "clics": 1607
+    },
+    {
+      "marca": "vitalis",
+      "plataforma": "tiktok-ads",
+      "mes": "2025-11",
+      "inversion": 407.64,
+      "inversionPlan": 411.34,
+      "leads": 3344,
+      "mensajes": 16,
+      "conversaciones": 18,
+      "conversiones": 13,
+      "impresiones": 109323,
+      "clics": 1673
+    },
+    {
+      "marca": "vitalis",
+      "plataforma": "tiktok-ads",
+      "mes": "2025-12",
+      "inversion": 415.8,
+      "inversionPlan": 419.58,
+      "leads": 3432,
+      "mensajes": 17,
+      "conversaciones": 19,
+      "conversiones": 14,
+      "impresiones": 112200,
+      "clics": 1683
+    },
+    {
+      "marca": "zenith-foods",
+      "plataforma": "meta-ads",
+      "mes": "2025-07",
+      "inversion": 1175.73,
+      "inversionPlan": 1186.41,
+      "leads": 4352,
+      "mensajes": 21,
+      "conversaciones": 24,
+      "conversiones": 17,
+      "impresiones": 142277,
+      "clics": 1963
+    },
+    {
+      "marca": "zenith-foods",
+      "plataforma": "meta-ads",
+      "mes": "2025-08",
+      "inversion": 1228.8,
+      "inversionPlan": 1239.96,
+      "leads": 4480,
+      "mensajes": 22,
+      "conversaciones": 25,
+      "conversiones": 18,
+      "impresiones": 146462,
+      "clics": 2080
+    },
+    {
+      "marca": "zenith-foods",
+      "plataforma": "meta-ads",
+      "mes": "2025-09",
+      "inversion": 1228.8,
+      "inversionPlan": 1239.96,
+      "leads": 4608,
+      "mensajes": 23,
+      "conversaciones": 25,
+      "conversiones": 18,
+      "impresiones": 150646,
+      "clics": 2184
+    },
+    {
+      "marca": "zenith-foods",
+      "plataforma": "meta-ads",
+      "mes": "2025-10",
+      "inversion": 1228.8,
+      "inversionPlan": 1239.96,
+      "leads": 4800,
+      "mensajes": 24,
+      "conversaciones": 26,
+      "conversiones": 19,
+      "impresiones": 156923,
+      "clics": 2338
+    },
+    {
+      "marca": "zenith-foods",
+      "plataforma": "meta-ads",
+      "mes": "2025-11",
+      "inversion": 1185.87,
+      "inversionPlan": 1196.64,
+      "leads": 4864,
+      "mensajes": 24,
+      "conversaciones": 27,
+      "conversiones": 19,
+      "impresiones": 159015,
+      "clics": 2433
+    },
+    {
+      "marca": "zenith-foods",
+      "plataforma": "meta-ads",
+      "mes": "2025-12",
+      "inversion": 1209.6,
+      "inversionPlan": 1220.59,
+      "leads": 4992,
+      "mensajes": 25,
+      "conversaciones": 27,
+      "conversiones": 20,
+      "impresiones": 163200,
+      "clics": 2448
+    },
+    {
+      "marca": "zenith-foods",
+      "plataforma": "delivery-platforms",
+      "mes": "2025-07",
+      "inversion": 538.88,
+      "inversionPlan": 543.77,
+      "leads": 1088,
+      "mensajes": 5,
+      "conversaciones": 6,
+      "conversiones": 4,
+      "impresiones": 35569,
+      "clics": 491
+    },
+    {
+      "marca": "zenith-foods",
+      "plataforma": "delivery-platforms",
+      "mes": "2025-08",
+      "inversion": 563.2,
+      "inversionPlan": 568.32,
+      "leads": 1120,
+      "mensajes": 5,
+      "conversaciones": 6,
+      "conversiones": 5,
+      "impresiones": 36615,
+      "clics": 520
+    },
+    {
+      "marca": "zenith-foods",
+      "plataforma": "delivery-platforms",
+      "mes": "2025-09",
+      "inversion": 563.2,
+      "inversionPlan": 568.32,
+      "leads": 1152,
+      "mensajes": 6,
+      "conversaciones": 6,
+      "conversiones": 5,
+      "impresiones": 37662,
+      "clics": 546
+    },
+    {
+      "marca": "zenith-foods",
+      "plataforma": "delivery-platforms",
+      "mes": "2025-10",
+      "inversion": 563.2,
+      "inversionPlan": 568.32,
+      "leads": 1200,
+      "mensajes": 6,
+      "conversaciones": 7,
+      "conversiones": 5,
+      "impresiones": 39231,
+      "clics": 585
+    },
+    {
+      "marca": "zenith-foods",
+      "plataforma": "delivery-platforms",
+      "mes": "2025-11",
+      "inversion": 543.52,
+      "inversionPlan": 548.46,
+      "leads": 1216,
+      "mensajes": 6,
+      "conversaciones": 7,
+      "conversiones": 5,
+      "impresiones": 39754,
+      "clics": 608
+    },
+    {
+      "marca": "zenith-foods",
+      "plataforma": "delivery-platforms",
+      "mes": "2025-12",
+      "inversion": 554.4,
+      "inversionPlan": 559.44,
+      "leads": 1248,
+      "mensajes": 6,
+      "conversaciones": 7,
+      "conversiones": 5,
+      "impresiones": 40800,
+      "clics": 612
+    },
+    {
+      "marca": "zenith-foods",
+      "plataforma": "google-ads",
+      "mes": "2025-07",
+      "inversion": 440.9,
+      "inversionPlan": 444.91,
+      "leads": 3264,
+      "mensajes": 16,
+      "conversaciones": 18,
+      "conversiones": 13,
+      "impresiones": 106708,
+      "clics": 1472
+    },
+    {
+      "marca": "zenith-foods",
+      "plataforma": "google-ads",
+      "mes": "2025-08",
+      "inversion": 460.8,
+      "inversionPlan": 464.99,
+      "leads": 3360,
+      "mensajes": 16,
+      "conversaciones": 18,
+      "conversiones": 13,
+      "impresiones": 109846,
+      "clics": 1560
+    },
+    {
+      "marca": "zenith-foods",
+      "plataforma": "google-ads",
+      "mes": "2025-09",
+      "inversion": 460.8,
+      "inversionPlan": 464.99,
+      "leads": 3456,
+      "mensajes": 17,
+      "conversaciones": 19,
+      "conversiones": 14,
+      "impresiones": 112985,
+      "clics": 1638
+    },
+    {
+      "marca": "zenith-foods",
+      "plataforma": "google-ads",
+      "mes": "2025-10",
+      "inversion": 460.8,
+      "inversionPlan": 464.99,
+      "leads": 3600,
+      "mensajes": 18,
+      "conversaciones": 20,
+      "conversiones": 14,
+      "impresiones": 117692,
+      "clics": 1754
+    },
+    {
+      "marca": "zenith-foods",
+      "plataforma": "google-ads",
+      "mes": "2025-11",
+      "inversion": 444.7,
+      "inversionPlan": 448.74,
+      "leads": 3648,
+      "mensajes": 18,
+      "conversaciones": 20,
+      "conversiones": 15,
+      "impresiones": 119261,
+      "clics": 1825
+    },
+    {
+      "marca": "zenith-foods",
+      "plataforma": "google-ads",
+      "mes": "2025-12",
+      "inversion": 453.6,
+      "inversionPlan": 457.72,
+      "leads": 3744,
+      "mensajes": 18,
+      "conversaciones": 20,
+      "conversiones": 15,
+      "impresiones": 122400,
+      "clics": 1836
+    },
+    {
+      "marca": "zenith-foods",
+      "plataforma": "tiktok-ads",
+      "mes": "2025-07",
+      "inversion": 293.93,
+      "inversionPlan": 296.6,
+      "leads": 2176,
+      "mensajes": 11,
+      "conversaciones": 12,
+      "conversiones": 9,
+      "impresiones": 71138,
+      "clics": 982
+    },
+    {
+      "marca": "zenith-foods",
+      "plataforma": "tiktok-ads",
+      "mes": "2025-08",
+      "inversion": 307.2,
+      "inversionPlan": 309.99,
+      "leads": 2240,
+      "mensajes": 11,
+      "conversaciones": 12,
+      "conversiones": 9,
+      "impresiones": 73231,
+      "clics": 1040
+    },
+    {
+      "marca": "zenith-foods",
+      "plataforma": "tiktok-ads",
+      "mes": "2025-09",
+      "inversion": 307.2,
+      "inversionPlan": 309.99,
+      "leads": 2304,
+      "mensajes": 11,
+      "conversaciones": 13,
+      "conversiones": 9,
+      "impresiones": 75323,
+      "clics": 1092
+    },
+    {
+      "marca": "zenith-foods",
+      "plataforma": "tiktok-ads",
+      "mes": "2025-10",
+      "inversion": 307.2,
+      "inversionPlan": 309.99,
+      "leads": 2400,
+      "mensajes": 12,
+      "conversaciones": 13,
+      "conversiones": 10,
+      "impresiones": 78462,
+      "clics": 1169
+    },
+    {
+      "marca": "zenith-foods",
+      "plataforma": "tiktok-ads",
+      "mes": "2025-11",
+      "inversion": 296.47,
+      "inversionPlan": 299.16,
+      "leads": 2432,
+      "mensajes": 12,
+      "conversaciones": 13,
+      "conversiones": 10,
+      "impresiones": 79508,
+      "clics": 1216
+    },
+    {
+      "marca": "zenith-foods",
+      "plataforma": "tiktok-ads",
+      "mes": "2025-12",
+      "inversion": 302.4,
+      "inversionPlan": 305.15,
+      "leads": 2496,
+      "mensajes": 12,
+      "conversaciones": 14,
+      "conversiones": 10,
+      "impresiones": 81600,
+      "clics": 1224
+    }
+  ],
+  "panelesGlobales": {
+    "audiencia": {
+      "nova-motors": {
+        "hombres": 0.66,
+        "mujeres": 0.34
+      },
+      "aurora-retail": {
+        "hombres": 0.58,
+        "mujeres": 0.42
+      },
+      "vitalis": {
+        "hombres": 0.61,
+        "mujeres": 0.39
+      },
+      "zenith-foods": {
+        "hombres": 0.63,
+        "mujeres": 0.37
+      },
+      "todas": {
+        "hombres": 0.62,
+        "mujeres": 0.38
+      }
+    },
+    "conversionPorCanal": {
+      "nova-motors": [
+        {
+          "canal": "Facebook",
+          "valor": 109
+        },
+        {
+          "canal": "Instagram",
+          "valor": 34
+        },
+        {
+          "canal": "WhatsApp Direct",
+          "valor": 1
+        }
+      ],
+      "aurora-retail": [
+        {
+          "canal": "Facebook",
+          "valor": 90
+        },
+        {
+          "canal": "Instagram",
+          "valor": 29
+        },
+        {
+          "canal": "WhatsApp Direct",
+          "valor": 1
+        }
+      ],
+      "vitalis": [
+        {
+          "canal": "Facebook",
+          "valor": 71
+        },
+        {
+          "canal": "Instagram",
+          "valor": 22
+        },
+        {
+          "canal": "WhatsApp Direct",
+          "valor": 1
+        }
+      ],
+      "zenith-foods": [
+        {
+          "canal": "Facebook",
+          "valor": 51
+        },
+        {
+          "canal": "Instagram",
+          "valor": 16
+        },
+        {
+          "canal": "WhatsApp Direct",
+          "valor": 1
+        }
+      ],
+      "todas": [
+        {
+          "canal": "Facebook",
+          "valor": 321
+        },
+        {
+          "canal": "Instagram",
+          "valor": 101
+        },
+        {
+          "canal": "WhatsApp Direct",
+          "valor": 4
+        }
+      ]
+    },
+    "pacing": {
+      "nova-motors": {
+        "meta": 131,
+        "actual": 106,
+        "faltan": 25
+      },
+      "aurora-retail": {
+        "meta": 118,
+        "actual": 87,
+        "faltan": 31
+      },
+      "vitalis": {
+        "meta": 86,
+        "actual": 68,
+        "faltan": 18
+      },
+      "zenith-foods": {
+        "meta": 69,
+        "actual": 50,
+        "faltan": 19
+      },
+      "todas": {
+        "meta": 400,
+        "actual": 311,
+        "faltan": 89
+      }
+    },
+    "costoPorConversacion": {
+      "nova-motors": 2.71,
+      "aurora-retail": 3.34,
+      "vitalis": 2.88,
+      "zenith-foods": 3.1,
+      "todas": 2.95
+    }
+  }
+}

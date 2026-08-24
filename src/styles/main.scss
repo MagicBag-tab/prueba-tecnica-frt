@@ -1,0 +1,34 @@
+@use './tokens' as *;
+
+// Reset basico
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: $font-sans;
+  color: $color-text;
+  background: $color-bg;
+  -webkit-font-smoothing: antialiased;
+}
+
+// Tokens tambien expuestos como CSS custom properties, por si prefieres var()
+:root {
+  --color-navy: #{$color-navy};
+  --color-blue: #{$color-blue};
+  --color-text: #{$color-text};
+  --color-text-muted: #{$color-text-muted};
+  --color-bg: #{$color-bg};
+  --color-surface: #{$color-surface};
+  --color-border: #{$color-border};
+  --radius-lg: #{$radius-lg};
+  --shadow-card: #{$shadow-card};
+}
