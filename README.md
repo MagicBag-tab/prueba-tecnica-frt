@@ -6,6 +6,8 @@ Bienvenido. Este repositorio es el punto de partida de la prueba. Ya viene
 configurado (Vite + React + TypeScript + SCSS), con la data y los tokens
 listos, para que dediques tus 2 horas al reto y no al setup.
 
+Figma: https://www.figma.com/design/7WvuNfIlHNs5Er0tMMUTpd/PruebaTecnica?node-id=0-1&t=sHstTjYLwrzjM8Nc-1
+
 ---
 
 ## Setup
@@ -38,7 +40,7 @@ src/
   data/quantum-reach-data.json   La data (única fuente, no hay backend)
   types/dashboard.ts             Tipos de la data
   lib/api.ts                     "Backend" simulado (fetch con latencia)
-  hooks/useAsyncData.ts          Hook de EJEMPLO con el patrón esperado
+  hooks/useAsyncData.ts          Aquí va el hook o hooks
   styles/_tokens.scss            Tokens del diseño (colores, espaciado, etc.)
   styles/main.scss               Reset y estilos base
   components/                    Aquí van tus componentes
