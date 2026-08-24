@@ -100,26 +100,45 @@ El diseño incluye:
 ---
 
 ## Los datos
-
-Todo se deriva de `registros`, un arreglo a grano **marca × plataforma × mes**
-(4 marcas, 4 plataformas, 6 meses de julio a diciembre). Cada registro trae
-`inversion`, `inversionPlan`, `leads`, `mensajes`, `conversaciones`,
-`conversiones`, `impresiones` y `clics`.
-
-- Los **KPIs** salen de agregar los registros del mes seleccionado.
-  - Inversión ejecutada: suma de `inversion`; el "de $X" y el % salen de
-    comparar contra la suma de `inversionPlan`.
-  - CTR promedio: `clics` / `impresiones`.
-- El **badge** de cada KPI es la variación del indicador en el mes
-  seleccionado respecto al mes anterior.
-- El **gráfico de leads** es la suma de `leads` por mes (los 6 meses).
-- El **mix de inversión** es la suma de `inversion` por plataforma del mes
-  seleccionado (su total coincide con el KPI de inversión ejecutada).
-- Los **paneles inferiores** (audiencia, conversión por canal, pacing, costo
-  por conversación) están en `panelesGlobales`, indexados por id de marca
-  (`todas`, `nova-motors`, ...).
-
-`filtros` trae las opciones de `marcas`, `plataformas` y `meses`.
+ 
+La data tiene dos partes, y cada widget sale de una de ellas.
+ 
+### 1. `registros` (se agregan)
+ 
+Un arreglo a grano **marca × plataforma × mes** (4 marcas × 4 plataformas ×
+6 meses = 96 filas). Sumando las filas que corresponden a los filtros
+activos, de aquí salen:
+ 
+- **Los 4 KPIs:**
+  - Inversión ejecutada: suma de `inversion`. El "de $X" es la suma de
+    `inversionPlan`, y el % es `inversion / inversionPlan`.
+  - Mensajes del mes: suma de `mensajes`.
+  - CTR promedio: suma de `clics` / suma de `impresiones`.
+  - Conversaciones WhatsApp: suma de `conversaciones`.
+- **El badge de cada KPI:** la variación del indicador entre el mes
+  seleccionado y el mes anterior.
+- **El gráfico de leads:** suma de `leads` por mes (los 6 meses).
+- **El mix de inversión** (sus barras de progreso): suma de `inversion` por
+  plataforma del mes seleccionado. Su total coincide con el KPI de inversión
+  ejecutada.
+### 2. `panelesGlobales` (lectura directa por marca)
+ 
+Estos paneles NO salen de `registros`, porque usan dimensiones que
+`registros` no tiene (género, canales como Facebook/Instagram, y metas).
+Vienen ya listos, indexados por id de marca (`todas`, `nova-motors`, ...):
+ 
+- `audiencia[marca]`: los porcentajes de Hombres y Mujeres.
+- `conversionPorCanal[marca]`: las barras de Facebook, Instagram y WhatsApp
+  Direct.
+- `pacing[marca]`: meta, actual y faltan (el donut es `actual / meta`).
+- `costoPorConversacion[marca]`: el "Precio/conv" que aparece bajo el KPI de
+  mensajes.
+`meta.presupuestoTotal` da el presupuesto del encabezado, y `filtros` trae
+las opciones de `marcas`, `plataformas` y `meses`.
+ 
+> Nota: los widgets que salen de `registros` responden a Marca + Mes (y, de
+> forma deseable, Plataforma). Los de `panelesGlobales` responden solo a
+> Marca.
 
 ---
 
