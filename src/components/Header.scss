@@ -58,28 +58,41 @@
     .month-selector {
       display: flex;
       align-items: center;
-      gap: $spacing-8;
-      
+      justify-content: space-between;
+      gap: 12px;
+      background: $color-primary-white;
+      border: 1px solid #EAEAEA;
+      border-radius: 8px;
+      width: 126px;
+      height: 32px;
+      padding: 0 12px;
+      box-sizing: border-box;
+
       &__btn {
         background: none;
         border: none;
         color: $color-gray-silver;
         cursor: pointer;
-        padding: $spacing-4;
+        padding: 0;
         display: flex;
         align-items: center;
         justify-content: center;
         font-size: $size-body-3;
         font-weight: $weight-heading-3;
 
-        &:hover {
+        &:hover:not(:disabled) {
           color: $color-navy;
+        }
+
+        &:disabled {
+          opacity: 0.5;
+          cursor: not-allowed;
         }
       }
 
       &__current {
         font-weight: $weight-body-4;
-        color: $color-text-primary;
+        color: $color-gray-silver;
         font-size: $size-body-3;
         min-width: 60px;
         text-align: center;
