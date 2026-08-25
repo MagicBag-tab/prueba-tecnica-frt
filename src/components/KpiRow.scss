@@ -3,7 +3,7 @@
 .kpi-row {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: $spacing-20;
+  gap: 12px;
   padding: 0 $spacing-24;
   margin-bottom: $spacing-24;
 }
