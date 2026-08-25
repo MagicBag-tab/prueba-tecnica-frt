@@ -2,36 +2,43 @@ import { PieChart, Pie, Cell, ResponsiveContainer } from 'recharts';
 import { PanelCard } from './ui/PanelCard';
 import './MetaPacingPanel.scss';
 
-const mockData = {
-  meta: 400,
-  actual: 311,
-  faltan: 89,
-  porcentaje: 78
-};
+interface Pacing {
+  meta: number;
+  actual: number;
+  faltan: number;
+}
 
-const pieData = [
-  { name: 'Actual', value: mockData.actual },
-  { name: 'Faltan', value: mockData.faltan }
-];
+interface MetaPacingPanelProps {
+  mesNombre: string;
+  pacing: Pacing;
+}
 
 const COLORS = ['#3a5ad7', '#f5f5f5'];
 
-export function MetaPacingPanel() {
+export function MetaPacingPanel({ mesNombre, pacing }: MetaPacingPanelProps) {
+  const pieData = [
+    { name: 'Actual', value: pacing.actual },
+    { name: 'Faltan', value: pacing.faltan }
+  ];
+
+  // Calculamos el porcentaje
+  const porcentaje = pacing.meta > 0 ? (pacing.actual / pacing.meta) * 100 : 0;
+
   return (
-    <PanelCard title="Meta & Pacing" subtitle="Agosto" className="meta-pacing-card">
+    <PanelCard title="Meta & Pacing" subtitle={mesNombre} className="meta-pacing-card">
       <div className="meta-pacing-card__content">
         <div className="meta-pacing-card__stats">
           <div className="stat-box">
             <span className="stat-box__label">Meta</span>
-            <span className="stat-box__value">{mockData.meta}</span>
+            <span className="stat-box__value">{pacing.meta}</span>
           </div>
           <div className="stat-box">
             <span className="stat-box__label">Actual</span>
-            <span className="stat-box__value">{mockData.actual}</span>
+            <span className="stat-box__value">{pacing.actual}</span>
           </div>
           <div className="stat-box">
             <span className="stat-box__label">Faltan</span>
-            <span className="stat-box__value">{mockData.faltan}</span>
+            <span className="stat-box__value">{pacing.faltan}</span>
           </div>
         </div>
         
@@ -49,7 +56,7 @@ export function MetaPacingPanel() {
                   endAngle={-270}
                   dataKey="value"
                   stroke="none"
-                  cornerRadius={10}
+                  cornerRadius={10} 
                 >
                   {pieData.map((entry, index) => (
                     <Cell key={`cell-${index}`} fill={COLORS[index]} />
@@ -58,7 +65,7 @@ export function MetaPacingPanel() {
               </PieChart>
             </ResponsiveContainer>
             <div className="chart-center-text">
-              <span className="percentage">{mockData.porcentaje}%</span>
+              <span className="percentage">{porcentaje.toFixed(0)}%</span>
               <span className="label">de la meta</span>
             </div>
           </div>

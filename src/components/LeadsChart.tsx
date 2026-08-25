@@ -2,14 +2,17 @@ import { BarChart, Bar, XAxis, Tooltip, ResponsiveContainer, Cell, LabelList } f
 import { PanelCard } from './ui/PanelCard';
 import './LeadsChart.scss';
 
-const mockData = [
-  { name: 'Jul', leads: 68000, display: '68k' },
-  { name: 'Ago', leads: 70000, display: '70k' },
-  { name: 'Sep', leads: 72000, display: '72k' },
-  { name: 'Oct', leads: 75000, display: '75k' },
-  { name: 'Nov', leads: 76000, display: '76k' },
-  { name: 'Dic', leads: 78000, display: '78k' }
-];
+interface LeadsData {
+  mes: string;
+  fullMesId: string;
+  leads: number;
+  display: string;
+}
+
+interface LeadsChartProps {
+  data: LeadsData[];
+  selectedMesId: string;
+}
 
 const colors = [
   '#c9d2f4',
@@ -20,13 +23,13 @@ const colors = [
   '#1b2c72'
 ];
 
-export function LeadsChart() {
+export function LeadsChart({ data, selectedMesId }: LeadsChartProps) {
   return (
     <PanelCard title="Leads Mensuales" subtitle="Últimos 6 meses" className="leads-chart-card">
       <ResponsiveContainer width="100%" height={260}>
-        <BarChart data={mockData} margin={{ top: 20, right: 0, left: 0, bottom: 0 }}>
+        <BarChart data={data} margin={{ top: 20, right: 0, left: 0, bottom: 0 }}>
           <XAxis 
-            dataKey="name" 
+            dataKey="mes" 
             axisLine={false} 
             tickLine={false} 
             tick={{ fontSize: 12, fill: '#a6a6a6' }} 
@@ -37,8 +40,13 @@ export function LeadsChart() {
             formatter={(value: number) => [value, 'Leads']}
           />
           <Bar dataKey="leads" radius={[4, 4, 0, 0]} maxBarSize={70}>
-            {mockData.map((entry, index) => (
-              <Cell key={`cell-${index}`} fill={colors[index % colors.length]} />
+            {data.map((entry, index) => (
+              <Cell 
+                key={`cell-${index}`} 
+                fill={colors[index % colors.length]} 
+                // Opacidad completa para el mes seleccionado o si no se quiere destacar nada, todos llenos
+                opacity={entry.fullMesId === selectedMesId ? 1 : 0.75}
+              />
             ))}
             <LabelList 
               dataKey="display" 
