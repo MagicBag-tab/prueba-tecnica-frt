@@ -21,3 +21,14 @@ body {
   margin: 0 auto;
 }
 
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: 1fr; /* Hace que todas las filas tengan la misma altura */
+  gap: $spacing-20;
+  padding: 0 $spacing-24;
+  margin-bottom: $spacing-24;
+}
+
+
+

@@ -1,4 +1,5 @@
 import { PieChart, Pie, Cell, ResponsiveContainer } from 'recharts';
+import { PanelCard } from './ui/PanelCard';
 import './MetaPacingPanel.scss';
 
 const mockData = {
@@ -13,16 +14,11 @@ const pieData = [
   { name: 'Faltan', value: mockData.faltan }
 ];
 
-// Utilizamos el token azul de la marca y un gris super claro para el fondo
 const COLORS = ['#3a5ad7', '#f5f5f5'];
 
 export function MetaPacingPanel() {
   return (
-    <div className="meta-pacing-card">
-      <h3 className="meta-pacing-card__title">
-        Meta & Pacing <span className="subtitle">| Agosto</span>
-      </h3>
-      
+    <PanelCard title="Meta & Pacing" subtitle="Agosto" className="meta-pacing-card">
       <div className="meta-pacing-card__content">
         <div className="meta-pacing-card__stats">
           <div className="stat-box">
@@ -53,7 +49,7 @@ export function MetaPacingPanel() {
                   endAngle={-270}
                   dataKey="value"
                   stroke="none"
-                  cornerRadius={10} // Para suavizar los bordes
+                  cornerRadius={10}
                 >
                   {pieData.map((entry, index) => (
                     <Cell key={`cell-${index}`} fill={COLORS[index]} />
@@ -68,6 +64,6 @@ export function MetaPacingPanel() {
           </div>
         </div>
       </div>
-    </div>
+    </PanelCard>
   );
 }

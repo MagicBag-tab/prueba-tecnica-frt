@@ -31,7 +31,7 @@
     display: flex;
     flex-direction: column;
     gap: $spacing-12;
-    flex: 0 0 140px; // Un ancho fijo para que la caja no crezca mucho
+    flex: 0 0 140px; 
 
     .stat-box {
       background-color: $color-gray-white-smoke;
@@ -47,7 +47,7 @@
       }
 
       &__value {
-        font-size: $size-heading-3; // 20px
+        font-size: $size-heading-3;
         font-weight: $weight-heading-3;
         color: $color-text-primary;
         line-height: 1;
@@ -65,12 +65,10 @@
       position: relative;
       width: 190px;
       height: 190px;
-      // Esto hace que ResponsiveContainer se adapte al div padre
       display: flex;
       justify-content: center;
       align-items: center;
 
-      // Reseteo para recharts
       .recharts-wrapper {
         outline: none;
       }

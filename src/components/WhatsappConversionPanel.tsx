@@ -1,10 +1,9 @@
+import { PanelCard } from './ui/PanelCard';
 import './WhatsappConversionPanel.scss';
 
 export function WhatsappConversionPanel() {
   return (
-    <div className="whatsapp-panel-card">
-      <h3 className="whatsapp-panel-card__title">WhatsApp & Conversión</h3>
-      
+    <PanelCard title="WhatsApp & Conversión" className="whatsapp-panel-card">
       <div className="whatsapp-panel-card__audience">
         <div className="audience-box">
           <span className="audience-box__label">Hombres</span>
@@ -49,6 +48,6 @@ export function WhatsappConversionPanel() {
           </div>
         </div>
       </div>
-    </div>
+    </PanelCard>
   );
 }

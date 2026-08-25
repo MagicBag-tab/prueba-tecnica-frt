@@ -1,3 +1,4 @@
+import { PanelCard } from './ui/PanelCard';
 import './InvestmentMix.scss';
 
 const mockData = [
@@ -9,9 +10,7 @@ const mockData = [
 
 export function InvestmentMix() {
   return (
-    <div className="investment-mix-card">
-      <h3 className="investment-mix-card__title">Mix de inversión digital</h3>
-      
+    <PanelCard title="Mix de inversión digital" className="investment-mix-card">
       <div className="investment-mix-card__header">
         <span className="col-canal">CANAL</span>
         <span className="col-valores">INVERSIÓN <span className="spacing"></span> % TOTAL</span>
@@ -37,6 +36,6 @@ export function InvestmentMix() {
           </div>
         ))}
       </div>
-    </div>
+    </PanelCard>
   );
 }
