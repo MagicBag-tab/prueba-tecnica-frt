@@ -3,7 +3,8 @@
 .header {
   display: flex;
   flex-direction: column;
-  padding: $spacing-24 $spacing-24 0;
+  background-color: $color-background-navbar;
+  padding: $spacing-24;
   margin-bottom: $spacing-24;
 }
 
